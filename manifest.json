@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Bedrock Addons",
+      "description": "Script API Template",
+      "uuid": "801bfc75-548a-6707-781f-52a6175d7010",
+      "version": [0, 1, 0],
+      "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+      {
+        "type": "script",
+        "language": "javascript",
+        "uuid": "c4fbb7b2-9d54-5848-26d9-e8bdafc7dc70",
+        "entry": "scripts/Main.js",
+        "version": [0, 1, 0]
+      }
+    ],
+    "capabilities": ["script_eval"],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.5.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.1.0-beta"
+      }
+    ]
+  }
+  
+  
